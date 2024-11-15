@@ -1,0 +1,17 @@
+.list {
+    &__input {
+        width: 100%;
+
+        input {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    &__items-container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
